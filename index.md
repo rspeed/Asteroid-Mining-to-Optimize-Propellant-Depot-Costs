@@ -16,7 +16,7 @@ The overall mission is split into four stages, starting with remote observation 
 
 ### 1. Remote Observation
 
-Use inexpensive satellites in low earth orbit to perform spectral analysis on potential targes, then analize the results to determine which are the most likely to contain water ice.
+Use inexpensive satellites in low earth orbit to perform spectral analysis on potential targets, then analyze the results to determine which are the most likely to contain water ice.
 
 * COTS CubeSat bus
 * Basically AKRYD, but designed for longer duration mission
@@ -26,7 +26,7 @@ Use inexpensive satellites in low earth orbit to perform spectral analysis on po
 Launch multiple small and inexpensive spacecraft to visit and analyze the most promising targets.
 
 * COTS small satellite buses
-* Spectral analizer to find surface ice
+* Spectral analyzer to find surface ice
 * Ground-penetrating radar to see shallow sub-surface structure
 
 First pass around the asteroid is performed at high altitude, using the radar sensor to map surface. Ground-penetration doesn't work at that range, but the asteroid's shape can be mapped in high fidelity. Find potential hazards to avoid during a low-level pass.
@@ -37,7 +37,7 @@ A single high-cost spacecraft to make a highly detailed analysis of the final ca
 
 * Custom satellite bus
 * Advanced thermal management system to improve sensor accuracy
-* High-resolution spectral analizer
+* High-resolution spectral analyzer
 * Addition of a sonar sensor and an impactor
 
 #### Sonar Study
@@ -46,7 +46,7 @@ Similar to the ground-penetrating radar. By landing direct on candidate extracti
 
 #### Impactor Study
 
-After analizing the candidate extraction sites, a small impactor is used to study the sub-surface chemical makeup of the most promising site. This would be similar to the LCROSS mission, but at a much smaller scale.
+After analyzing the candidate extraction sites, a small impactor is used to study the sub-surface chemical makeup of the most promising site. This would be similar to the LCROSS mission, but at a much smaller scale.
 
 * Retreat to safe distance
 * Spin-up and release impactor
@@ -59,7 +59,7 @@ Highly-specialized spacecraft which is split into two modules.
 
 #### Extractor Module
 
-Collects resources and converts them to propellants. Uses Sebatier reaction to convert hydrogen (from water) and carbon (extremely plentiful on C-type and G-type asteroids) into methane.
+Collects resources and converts them to propellants. Uses Sabatier reaction to convert hydrogen (from water) and carbon (extremely plentiful on C-type and G-type asteroids) into methane.
 
 * Majority of spacecraft's dry mass
 * Extraction
@@ -111,7 +111,7 @@ A methalox propellant depot in LEO would make it substantially easier, allowing 
 
 Teledyne might get some business from this. :D
 
-## Potential Tagets
+## Potential Targets
 
 I specifically looked for C-type asteroids, as they contain massive amounts of carbon and are very likely to contain water. I looked at near earth object (NEO) asteroids as well as those in the Asteroid Belt. The martian moons Phobos and Deimos were also investigated.
 
@@ -132,7 +132,7 @@ I specifically looked for C-type asteroids, as they contain massive amounts of c
 
 #### Advantages
 
-* Ceres has aronud 1/10th as much water as Earth
+* Ceres has around 1/10th as much water as Earth
 * Already visited by Dawn, so you can reduce up-front costs by starting from the third stage
 * Orbits have same general properties as planets, regular transfer windows
 * Near Martian orbit, making it easier to refuel return vehicles
@@ -160,9 +160,9 @@ I specifically looked for C-type asteroids, as they contain massive amounts of c
 
 ### Sabatier may be unnecessary
 
-One step in the  destription of the methane generation process was is intentionally left out. Before the Sabatier reaction can occur, the carbon collected from the asteroid would have to first be combined with the oxygen from electrolyzing water. The result is carbon dioxide, which is used along with the hydrogen.
+One step in the description of the methane generation process was intentionally left out. Before the Sabatier reaction can occur, the carbon collected from the asteroid would have to first be combined with the oxygen from electrolyzing water. The result is carbon dioxide, which is used along with the hydrogen.
 
-This process appears to be significantly more complicated than necssary, as evidenced by the oxygen acting as both a consumable and product at a 1:1 ratio. After preliminary research it seems it may be possible to generate methane *directly* by exposing the carbon (likely in the form of graphite) to atomic hydrogen. However, I was unable to find a clear answer before the deadline.
+This process appears to be significantly more complicated than necessary, as evidenced by the oxygen acting as both a consumable and product at a 1:1 ratio. After preliminary research it seems it may be possible to generate methane *directly* by exposing the carbon (likely in the form of graphite) to atomic hydrogen. However, I was unable to find a clear answer before the deadline.
 
 Additionally, I should find out if it's possible to prevent the hydrogen produced through electrolysis from becoming H2.
 
