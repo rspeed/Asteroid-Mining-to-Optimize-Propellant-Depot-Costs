@@ -183,3 +183,13 @@ Right now this is entirely text. My plan is to use Kerbal Space Program (yes, I 
 ### Complete Target Tables
 
 I've spent a lot of time gathering data about the targets, but only general information has been included in this document. Once the data is properly organized, it needs to be added to another document.
+
+### Create Diagrams
+
+* The routes taken by water, carbon, hydrogen, oxygen, and methane as they travel from the asteroid to the propellant return module
+* Example orbital paths of transfers to NEOs, Martian moons, and the asteroid belt
+* Vehicle designs, with labeled subsystems
+
+### Martian Slingshot Calculations
+
+A spacecraft traveling from LEO to the asteroid belt can use Mars for a gravitational assist to significantly reduce the delta-v requirements. I'd like to create a second set of calculations.
