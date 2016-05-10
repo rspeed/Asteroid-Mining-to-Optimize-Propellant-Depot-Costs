@@ -62,7 +62,7 @@ A highly-specialized spacecraft split into two modules that operate independentl
 
 Securely anchored at the extraction site, the Extractor Module is responsible for extracting resources and converting them into <abbr title="Liquid Methane and Liquid Oxygen">methalox</abbr> propellants. Since the conversion process is energy intensive, the module has large solar panels and radiators.
 
-[![Extractor Module mockup](images/extractor\_module.png)](images/extractor\_module\_full.png)
+[![Extractor Module mockup](images/extractor\_module.png)](https://raw.githubusercontent.com/rspeed/Asteroid-Mining-to-Optimize-Propellant-Depot-Costs/master/images/extractor\_module\_full.png)
 
 Converting the asteroid's materials into propellant is a somewhat complex process.
 
@@ -82,7 +82,7 @@ Converting the asteroid's materials into propellant is a somewhat complex proces
 
 This module serves dual purposes of delivering the Extractor Module to the target asteroid and ferrying propellant to <abbr title="Low Earth Orbit">LEO</abbr>.
 
-[![Depot Module mockup](images/depot\_module.png)](images/depot\_module\_full.png)
+[![Depot Module mockup](images/depot\_module.png)](https://raw.githubusercontent.com/rspeed/Asteroid-Mining-to-Optimize-Propellant-Depot-Costs/master/images/depot\_module\_full.png)
 
 Thrust is provided by a small <abbr title="Liquid Methane and Liquid Oxygen">methalox</abbr> engine which is optimized for efficiency. The spacecraft's structure is dominated by the propellant tanks which are used to store propellant for refueling other spacecraf, but also to fuel its own engine. Methalox thrusters provide RCS and ullage without requiring separate propellants, and there is no need for pressurants due to <abbr title="Liquid Methane">LCH4</abbr> and <abbr title="Liquid Oxygen">LOX</abbr> being self-pressurizing. This means the module is capable of operating continuously without any Earth-supplied consumables.
 
