@@ -66,7 +66,7 @@ Securely anchored at the extraction site, the Extractor Module is responsible fo
 
 Converting the asteroid's materials into propellant is a somewhat complex process.
 
-![Propellant Production Flowchart](https://github.com/rspeed/Asteroid-Mining-to-Optimize-Propellant-Depot-Costs/blob/master/images/propellant_production.svg)
+![Propellant Production Flowchart](/rspeed/Asteroid-Mining-to-Optimize-Propellant-Depot-Costs/blob/master/images/propellant_production.svg)
 
 1. A drill pulls materials from the asteroid into a sealed chamber where they're heated [using microwaves](http://anstd.ans.org/wp-content/uploads/2015/07/5111.pdf), melting ice and separating water from hydrated minerals. The water is isolated using a centrifugal separator and then stored in a heated tank. The remaining carbonaceous minerals are stored in a separate tank where they finish drying.
 
