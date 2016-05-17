@@ -6,6 +6,8 @@ Author: Rob Speed
 
 License: Creative Commons (see LICENSE)
 
+![Earth to Mars via Ceres][]
+
 ## Goal
 
 Exploit the inherent advantages of asteroid mining and in-situ resource utilization to significantly reduce the long-term costs of operating orbital propellant depots. Those savings translate directly into the overall cost of space missions beyond Low Earth Orbit (<abbr title="Low Earth Orbit">LEO</abbr>), particularly manned exploration of Mars. This goal can be achieved by continuously mining carbon and water from asteroids, converting them to rocket propellant, then transferring the propellant to spacecraft located deep within a planetary gravity well. Without the need to dedicate a full rocket launch to place each depot in orbit, this system pays for itself within a few refueling cycles.
@@ -62,11 +64,11 @@ A highly-specialized spacecraft split into two modules that operate independentl
 
 Securely anchored at the extraction site, the Extractor Module is responsible for extracting resources and converting them into <abbr title="Liquid Methane and Liquid Oxygen">methalox</abbr> propellants. Since the conversion process is energy intensive, the module has large solar panels and radiators.
 
-[![Extractor Module mockup](images/extractor\_module.png)](https://raw.githubusercontent.com/rspeed/Asteroid-Mining-to-Optimize-Propellant-Depot-Costs/master/images/extractor\_module\_full.png)
+[![Extractor Module mockup][]] [extractor module mockup full]
 
 Converting the asteroid's materials into propellant is a somewhat complex process.
 
-![Propellant Production Flowchart](http://imgh.us/propellant\_production.svg)
+![Propellant Production Flowchart][]
 
 1. A drill pulls materials from the asteroid into a sealed chamber where they're heated [using microwaves](http://anstd.ans.org/wp-content/uploads/2015/07/5111.pdf), melting ice and separating water from hydrated minerals. The water is isolated using a centrifugal separator and then stored in a heated tank. The remaining carbonaceous minerals are stored in a separate tank where they finish drying.
 
@@ -82,7 +84,7 @@ Converting the asteroid's materials into propellant is a somewhat complex proces
 
 This module serves dual purposes of delivering the Extractor Module to the target asteroid and ferrying propellant to <abbr title="Low Earth Orbit">LEO</abbr>.
 
-[![Depot Module mockup](images/depot\_module.png)](https://raw.githubusercontent.com/rspeed/Asteroid-Mining-to-Optimize-Propellant-Depot-Costs/master/images/depot\_module\_full.png)
+[![Depot Module mockup][]][depot module mockup full]
 
 Thrust is provided by a small <abbr title="Liquid Methane and Liquid Oxygen">methalox</abbr> engine which is optimized for efficiency. The spacecraft's structure is dominated by the propellant tanks which are used to store propellant for refueling other spacecraf, but also to fuel its own engine. Methalox thrusters provide RCS and ullage without requiring separate propellants, and there is no need for pressurants due to <abbr title="Liquid Methane">LCH4</abbr> and <abbr title="Liquid Oxygen">LOX</abbr> being self-pressurizing. This means the module is capable of operating continuously without any Earth-supplied consumables.
 
@@ -227,3 +229,12 @@ I've spent a lot of time gathering data about targets, but only general informat
 ### Martian Slingshot Calculations
 
 Spacecraft traveling from <abbr title="Low Earth Orbit">LEO</abbr> to the Asteroid Belt can occasionally use Mars for a gravitational assist, reducing the trip's delta-v. A second set of calculations for those targets would be helpful, but so far I haven't found any data.
+
+[Earth to Mars via Ceres]: images/earth_to_mars_via_ceres.jpg
+
+[extractor module mockup]: images/extractor_module.png
+[extractor module mockup full]: images/extractor_module_full.png "Full-size mockup of the Extractor Module"
+[propellant production flowchart]: http://imgh.us/propellant_production.svg
+
+[depot module mockup]: images/depot_module.png
+[depot module mockup full]: images/depot_module_full.png "Full-size mockup of the Depot Module"
