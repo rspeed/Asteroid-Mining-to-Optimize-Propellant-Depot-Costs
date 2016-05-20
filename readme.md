@@ -234,7 +234,7 @@ Spacecraft traveling from <abbr title="Low Earth Orbit">LEO</abbr> to the Astero
 
 [extractor module mockup]: images/extractor_module.png
 [extractor module mockup full]: images/extractor_module_full.png "Full-size mockup of the Extractor Module"
-[propellant production flowchart]: http://imgh.us/propellant_production.svg
+[propellant production flowchart]: http://imgh.us/propellant_production_2.svg
 
 [depot module mockup]: images/depot_module.png
 [depot module mockup full]: images/depot_module_full.png "Full-size mockup of the Depot Module"
