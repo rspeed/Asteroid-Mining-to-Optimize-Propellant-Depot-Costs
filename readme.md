@@ -66,11 +66,11 @@ Securely anchored at the extraction site, the Extractor Module is responsible fo
 
 [![Extractor Module mockup][]] [extractor module mockup full]
 
-Converting the asteroid's materials into propellant is a somewhat complex process.
+Converting the asteroid's materials into propellant is essentially identical to the process on Mars. The surface composition of C-type asteroids is somewhat similar to the surface of Mars, but with 
 
 ![Propellant Production Flowchart][]
 
-1. A drill pulls materials from the asteroid into a sealed chamber where they're heated [using microwaves](http://anstd.ans.org/wp-content/uploads/2015/07/5111.pdf), melting ice and separating water from hydrated minerals. The water is isolated using a centrifugal separator and then stored in a heated tank. The remaining carbonaceous minerals are stored in a separate tank where they finish drying.
+1. A drill pulls materials from the asteroid into a sealed chamber where they're [heated using microwaves](http://anstd.ans.org/wp-content/uploads/2015/07/5111.pdf), causing the absorbed volatiles – particularly water and carbon dioxide – to vaporize and escape from the minerals. The mix of gases are moved to a nearby chamber where a condenser returns the water to a liquid state, then a centrifugal separator isolates it from the other gases (which have much lower melting points). The minerals are removed once they stop producing volatiles.
 
 1. Water is split into oxygen (O₂) and hydrogen (H₂) gases using electrolysis. Another centrifugal separator isolates hydrogen from residual water. The water is returned to its tank while the hydrogen and oxygen gases are stored in their own pressurized tanks.
 
@@ -86,7 +86,7 @@ This module serves dual purposes of delivering the Extractor Module to the targe
 
 [![Depot Module mockup][]][depot module mockup full]
 
-Thrust is provided by a small <abbr title="Liquid Methane and Liquid Oxygen">methalox</abbr> engine which is optimized for efficiency. The spacecraft's structure is dominated by the propellant tanks which are used to store propellant for refueling other spacecraf, but also to fuel its own engine. Methalox thrusters provide RCS and ullage without requiring separate propellants, and there is no need for pressurants due to <abbr title="Liquid Methane">LCH4</abbr> and <abbr title="Liquid Oxygen">LOX</abbr> being self-pressurizing. This means the module is capable of operating continuously without any Earth-supplied consumables.
+Thrust is provided by a small <abbr title="Liquid Methane and Liquid Oxygen">methalox</abbr> engine which is optimized for efficiency. The spacecraft's structure is dominated by the propellant tanks which are used to store propellant for refueling other spacecraf, but also to fuel its own engine. [Methalox thrusters](http://sbir.nasa.gov/SBIR/abstracts/16/sbir/phase1/SBIR-16-1-H2.01-7120.html) provide RCS and ullage without requiring separate propellants, and there is no need for pressurants due to <abbr title="Liquid Methane">LCH4</abbr> and <abbr title="Liquid Oxygen">LOX</abbr> being self-pressurizing. This means the module is capable of operating continuously without any Earth-supplied consumables.
 
 An active cooling system is used to prevent boil-off of the cryogenic liquids. Electricity to power that system is provided by a solar panel on one side of the tanks and heat is shed by a radiator on the opposite side. When operating independently (particularly during transit) this allows the spacecraft to remain positioned with the radiator pointed into deep space and the solar panel pointed towards the Sun.
 
